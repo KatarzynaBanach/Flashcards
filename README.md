@@ -31,4 +31,16 @@ The program's behavior depends on the action the user inputs:
 
 
 **Stage 6:**
+Print the message Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats): each time the user is prompted for their next action. The action is read from the next line, processed, and the message is output again until the user decides to exit the program.
+
+The program's behavior depends on the user's input action:
+- log — ask the user where to save the log with the message, save all the lines that have been input in/output to the console to the file, and print the message The log has been saved. Don't clear the log after saving it to the file.
+- hardest card — print a string that contains the term of the card with the highest number of wrong answers, for example, If there are several cards with the highest number of wrong answers, print all of the terms.
+- reset stats — set the count of mistakes to 0 for all the cards.
+
+Update your import and export actions from the previous stage, so that the error count for each flashcard is also imported and exported.
+
 **Stage 7:**
+When provided with command-line arguments, your program should do the following:
+- If --import_from=IMPORT is passed, where IMPORT is the file name, read the initial card set from the external file, and print the message n cards have been loaded. as the first line of the output, where n is the number of cards loaded from the external file. If such an argument is not provided, the set of cards should initially be empty and no message about card loading should be output.
+- If --export_to=EXPORT is passed, where EXPORT is the file name, write all cards that are in the program memory into this file after the user has entered exit, and the last line of the output should be n cards have been saved., where n is the number of flashcards in the set.
