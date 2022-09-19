@@ -1,9 +1,10 @@
 ## Flashcards
-Created while doing a course 'Python Core' on hyperskill.org, based on general schema and guidelines provided by course author (but solutions designed on my own). It was a lot of fun and possibility to practice using of lists, loops, dictionaries, json files on more advanced level.
+Flashcards is a popular form of learing and revising. This programm (at last stage) allows a user to **_add cards manually, import them from file, export them, test user and save info about number of wrong answers (there is possibility to reset this number as well). For checking purposes all inputs and outputs are saved to another file._**
+Created while doing a course 'Python Core' on hyperskill.org, based on general schema and guidelines provided by course author (but solutions designed on my own). It was a lot of fun and possibility to practice using of **_lists, loops, dictionaries, json files on more advanced level._**
 
 Technologies used:
 - python
-- libraries: random, json, argparse
+- libraries: **_random, json, argparse_**
 
 **Stages:**
 **Stage 1:**
