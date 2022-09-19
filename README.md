@@ -1,6 +1,9 @@
 ## Flashcards
-??
+Created while doing a course 'Python Core' on hyperskill.org, based on general schema and guidelines provided by course author (but solutions designed on my own). It was a lot of fun and possibility to practice using of lists, loops, dictionaries, json files on more advanced level.
 
+Technologies used:
+- python
+- libraries: random, json, argparse
 
 **Stages:**
 **Stage 1:**
